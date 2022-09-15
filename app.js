@@ -16,6 +16,13 @@ const inuptMinusculo = inupt.toLowerCase();
 
 console.log(cidade === inuptMinusculo);
 
-const aleatorio = 'ahsuidhasuidhasudhasuidhasiudhasiudhaisudhasiu'
+const aleatorio = 'ahsuid'
 
 console.log(aleatorio.length);
+
+for (let i = 0; i < aleatorio.length; i + 1){
+
+    i + 1
+
+    console.log('minha pika');
+}
