@@ -40,3 +40,5 @@ const ligandoParaCliente = function(telefoneComercial,telefonePessoal){
 
         //Sintaxe de espalhamento
 console.log(...pessoa1.Telefone)
+
+//Comentário
