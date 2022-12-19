@@ -1,0 +1,13 @@
+const precoLivros = [25,15,10,87,67]
+
+let maisBarato = 0;
+
+for (let atual = 0;atual < precoLivros.length; atual += 1){
+        if (precoLivros[atual] < precoLivros[maisBarato]){
+           maisBarato = atual
+    
+}
+}
+
+console.log(precoLivros[maisBarato])
+
